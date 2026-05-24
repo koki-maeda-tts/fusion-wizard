@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc80da07eb849f14fa858f3225c6c6a3, type: 3}
+  m_Name: FireHandParameters
+  m_EditorClassIdentifier: 
+  _baseHp: 1
+  _collisionDamage: 1
+  _weaknessAttribute: 8
+  _weaknessMultiplier: 2
+  _destroyAnimParaName: Destroy
+  _particlePos: {x: 0, y: 0.5}
+  _destroySE: {fileID: 8300000, guid: 08cee0f9b39df7d49ad6e66d047cebb6, type: 3}
+  _moveSpeed: 1.5
+  _thresholdDisX: 2

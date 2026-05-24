@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4562583e89221ff468f4fefeee1e9a8e, type: 3}
+  m_Name: DragonParameters
+  m_EditorClassIdentifier: 
+  _baseHp: 15
+  _collisionDamage: 20
+  _weaknessAttribute: 8
+  _weaknessMultiplier: 2
+  _destroyAnimParaName: Destroy
+  _particlePos: {x: -0.14, y: 1.73}
+  _destroySE: {fileID: 8300000, guid: 08cee0f9b39df7d49ad6e66d047cebb6, type: 3}
+  _moveSpeed: 0
+  _fireBall: {fileID: 4415144518317586673, guid: df649e537ab8b8e438aa299ab645f5c6, type: 3}
+  _projectionSpd: 3
+  _createPos: {x: -1.8, y: -0.3125}
+  _fireAnimParaName: Fire
+  _waitSeconds: 14

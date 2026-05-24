@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d997199f62fd3ea4b863833fed94579b, type: 3}
+  m_Name: PlayerParameters
+  m_EditorClassIdentifier: 
+  _initHp: 100
+  _moveSpeed: 4
+  _initProjectionSpd: 5
+  _addendProjectionSpd: 10
+  _limitAngle: 75
+  _magics:
+  - {fileID: 8691394080052730742, guid: 54c75c7995ce42745b28ff24d1008d5b, type: 3}
+  - {fileID: 910757460758523370, guid: c3236905c0d183b409c9b77e49bfb2b9, type: 3}
+  - {fileID: 7469833912624738605, guid: 77b67a921ec0d174aa235f4cf6a7676a, type: 3}
+  _coolSeconds: 0.25
+  _buttonUiTag: ChangeMagicButton
+  _damageSE: {fileID: 8300000, guid: 275c3ead690c2334da72c5c246b2cd68, type: 3}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fddffb3662cc9f4e9c18127e4db18ff, type: 3}
+  m_Name: MandragoraParameters
+  m_EditorClassIdentifier: 
+  _baseHp: 4
+  _collisionDamage: 7.5
+  _weaknessAttribute: 4
+  _weaknessMultiplier: 2
+  _destroyAnimParaName: Destroy
+  _particlePos: {x: 0, y: 0.5}
+  _destroySE: {fileID: 8300000, guid: 08cee0f9b39df7d49ad6e66d047cebb6, type: 3}
+  _moveSpeed: 6
+  _deg: 75
+  _upSprite: {fileID: 5626864686921512596, guid: 4724aacb4e0552c4fa3d913e22fbd2c7, type: 3}
+  _downSprite: {fileID: 5337745598428217836, guid: 4724aacb4e0552c4fa3d913e22fbd2c7, type: 3}
+  _thresholdSpd: 0.2
+  _waitSeconds: 4.5
